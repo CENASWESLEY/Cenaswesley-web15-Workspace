@@ -1,0 +1,716 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Staatliches&display=swap');
+
+
+*{
+
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0 ;
+    color: aliceblue;
+    font-family: 'Bebas Neue', cursive;
+
+
+}
+
+html{
+
+
+    scroll-behavior: smooth;
+}
+ul,li,a{
+
+    list-style: none;
+    text-decoration: none;
+    
+}
+
+img{
+
+
+    width: 60px;
+}
+header{
+
+    background-color: rgb(19, 19, 19);
+    justify-content: space-between;
+    padding: 50px 10%;
+    display: flex;
+   
+ 
+}
+
+header ul {
+
+
+    display: flex;
+    align-items: center;
+   
+}
+
+
+header ul li{
+
+
+    padding: 10px;
+
+}
+
+header ul a{
+
+
+   font-size: 25px;
+
+}
+
+
+section{
+
+    background-color: rgb(19, 19, 19);
+    height: 100vh;
+}
+
+.sectionimg .girl {
+   display: flex;
+   justify-content: end;
+   align-items: flex-end;
+   transform: translateY(-1000px);
+   transition: width 0.5 ease-in-out;
+
+}
+
+
+.sectionimg .girl img{
+
+   width: 500px;
+   justify-content: end;
+   display: flex;
+   align-items: flex-end;
+  
+ 
+
+}
+.sectionimg  div{
+
+    padding: 500px 20% 0 20% ;
+    justify-content: center;
+    font-size: 80px;
+}
+
+
+.sectionimg  p:nth-child(1){
+
+   
+    margin-left: 90px;
+
+}
+
+.sectionimg  ul{
+
+
+    display: flex;
+    padding: 50px 20% 0 20% ;
+    margin-left: 130px;
+}
+
+.sectionimg  ul  a{
+
+
+   width: 30px;
+   height: 30px;
+   border-radius: 30px;
+   background-color: rgb(255, 255, 255);
+   margin: 5px;
+}
+
+.sectionimg  ul a li i{
+
+
+    color: rgb(0, 0, 0);
+    padding: 7px;
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    
+}
+
+#f{
+
+    padding-left: 10px;
+ 
+}
+
+
+
+main{
+
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(19, 19, 19);
+    height: 1000px;
+    width: 100%;
+} 
+
+
+main .rectangle{
+
+
+    width: 10px;
+    height: 50px;
+    background-color: rgb(255, 0, 34);
+    margin: auto;
+}
+
+
+
+main .maincircle{
+
+    padding-top: 30px;
+
+}
+
+main .circle{
+
+    width: 80px;
+    height: 80px;
+    border-radius: 80px;
+    background-color: aliceblue;
+    margin: auto;
+    
+
+   
+
+}
+
+main .circle img{
+
+   width: 80px;
+   
+
+  
+
+}
+
+main .textcircle{
+
+    padding-top: 30px;
+   
+
+}
+
+main .textcircle p:nth-child(2){
+
+    padding-top: 5px;
+   
+
+}
+
+main .maintext{
+
+
+    padding-top: 50px;
+    
+}
+
+main .maintext p:nth-child(1){
+
+
+    font-size: 35px;
+}
+
+main .maintext p:nth-child(2){
+
+
+    padding-top: 50px;
+    font-size: 20px;
+
+}
+
+main .mainside{
+
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+main .mainside {
+
+    
+   padding-top:50px ;
+   display: flex;
+}
+
+main .mainbox{
+
+    padding: 30px;
+   
+}
+main .box{
+
+    width: 350px;
+    height: 250px;
+    background-color: aliceblue;
+    display: inline-flex;
+  
+
+}
+
+main .box img{
+
+   width: 350px;
+   height: 250px;
+
+ 
+
+}
+main .boxtext{
+
+
+    font-size: 20px;
+   padding: 20px;
+}
+
+
+main .boxtext p span{
+
+
+   width: 5px;
+   height: 25px;
+   background-color: rgb(255, 0, 34);
+    display: inline-flex;
+  align-items: center;
+    margin: 10px;
+    transform: translateY(15px);
+   
+}
+
+
+main .boxtext p:nth-child(2){
+
+
+
+    padding: 10px ;
+   
+  
+ }
+
+
+
+
+
+ .aside1{
+
+
+    background-color: rgb(41, 41, 41);
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+ }
+
+ .asidetext{
+
+    font-size: 35px;
+    text-align: center;
+    padding: 80px 35px 35px 50px;
+ }
+
+ .imgaside1 div img{
+
+
+    width: 300px;
+    
+    
+ }
+
+ .imgaside1  {
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+ }
+
+ .imgaside2{
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+ }
+
+
+ .imgaside2 div img{
+
+    width: 300px;
+  
+ }
+
+
+
+ .roomside{
+
+
+    
+    background-color: rgb(19, 19, 19);
+    height: 1100px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+
+ }
+
+ .roomside div{
+
+
+    display: flex;
+     justify-content: center;
+    align-items: center;
+    text-align: center;
+ }
+
+
+ 
+ .roomside .room1side .imgroom1side{
+
+
+    width: 300px;
+    height: 300px;
+    background-color: aliceblue;
+    margin: 40px 0 40px 40px;
+ }
+
+ .roomside .room1side .imgroom1side img{
+
+
+   width: 300px;
+   height: 300px;
+
+}
+
+ .roomside .room1side .img2room1side{
+
+
+    width: 300px;
+    height: 450px;
+    background-color: aliceblue;
+    margin: 180px 40px 40px 40px;
+  
+
+
+ }
+ .roomside .room1side .img2room1side img{
+
+
+   width: 300px;
+   height: 450px;
+   background-color: aliceblue;
+
+ 
+
+
+}
+ .room2side{
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+ }
+
+ .room2 img{
+
+   width: 300px;
+   height: 450px;
+   background-color: aliceblue;
+  
+
+ }
+
+
+ .room2side div:nth-child(2) p:nth-child(2){
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 60px 40px 40px 0;
+    
+
+
+ }
+
+
+ .room2side div:nth-child(2) p:nth-child(1){
+
+   font-size: 20px;
+   justify-content: start;
+   text-align: start;
+ 
+
+ }
+.roomrectangle{
+
+    width: 85px;
+    height: 5px;
+    background-color: rgb(255, 0, 34);
+    margin-bottom: 20px;
+}
+
+ .room2side div:nth-child(1){
+
+    width: 300px;
+    height: 450px;
+    background-color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transform: translateY(-180px);
+    margin: 40px  70px 40px 40px;
+
+ }
+
+
+ .room2side .room2{
+
+
+    margin: 40px;
+ }
+
+ .room2side .room2-2{
+
+
+    display: block;
+    padding-bottom: 150px;
+
+    
+ }
+
+ .room3{
+
+    display: flex;
+    justify-content: end;
+ }
+ .room3 .circlenext{
+
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: aliceblue;
+
+ }
+
+ .service{
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(41, 41, 41);
+    padding-bottom: 150px;
+ }
+
+ .servicetext{
+
+
+    font-size: 30px;
+    align-items: center;
+    text-align: center;
+ }
+
+ .mainservicebox{
+
+    display: flex;
+    padding-top: 100px;
+ }
+ .service .mainservicebox .servicebox div{
+
+
+    width: 500px;
+    height: 500px;
+
+    justify-content: center;
+    
+ }
+
+ .service .mainservicebox .servicebox div:nth-child(1){
+
+
+    width: 500px;
+    height: 500px;
+
+    justify-content: center;
+    margin: 30px;
+    
+ }
+
+ .service .mainservicebox .servicebox div:nth-child(1){
+
+
+    width: 500px;
+    height: 500px;
+ 
+    justify-content: center;
+    margin: 30px 30px 30px 0;
+    
+ }
+
+ .mainservicebox p{
+
+
+   font-size: 30px;
+   text-align: center;
+   justify-content: center;
+ }
+
+ .mainservicebox .servicebox .servicebox{
+
+   margin-top: 100px;
+}
+
+ .mainservicebox .servicebox .servicebox1{
+
+    background-color: black;
+ }
+ .mainservicebox .servicebox .servicebox1 div i{
+
+   font-size: 40px;
+   padding-top: 130px;
+   padding-bottom: 50px;
+ }
+ .mainservicebox .servicebox .servicebox1 div p{
+
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+ }
+
+
+ .mainservicebox .servicebox .servicebox2{
+
+    background-color: rgb(255, 255, 255);
+ }
+
+ .mainservicebox .servicebox .servicebox2 div i{
+
+    font-size: 40px;
+    padding-bottom: 50px;
+    padding-top: 130px;
+    color: rgb(0, 0, 0);
+  }
+  .mainservicebox .servicebox .servicebox2 div p{
+ 
+     align-items: center;
+     justify-content: center;
+     text-align: center;
+     color: rgb(0, 0, 0);
+     font-size: 20px;
+  }
+
+ .mainservicebox .servicebox .servicebox3{
+
+    background-color: rgb(255, 255, 255);
+ }
+
+ .mainservicebox .servicebox .servicebox3 div i{
+
+    font-size: 40px;
+    padding-bottom: 50px;
+    padding-top: 130px;
+    color: rgb(0, 0, 0);
+  }
+  .mainservicebox .servicebox .servicebox3 div p{
+ 
+     align-items: center;
+     justify-content: center;
+     text-align: center;
+     color: rgb(0, 0, 0);
+     font-size: 20px;
+  }
+
+ .mainservicebox .servicebox .servicebox4{
+
+    background-color: rgb(0, 0, 0);
+ }
+
+ .mainservicebox .servicebox .servicebox4 div i{
+
+    font-size: 40px;
+    padding-top: 130px;
+    padding-bottom: 50px;
+  }
+  .mainservicebox .servicebox .servicebox4 div p{
+ 
+     align-items: center;
+     justify-content: center;
+     text-align: center;
+     font-size: 20px;
+  }
+  footer{
+
+   background-color:black ;
+  }
+  .footer{
+
+    justify-content: space-between;
+    display: flex;
+    padding : 0 20%;
+    background-color: black;
+    color: aliceblue;
+    height: 500px;
+    font-size: 30px;
+    align-items: center;
+}
+
+.footernav {
+
+   
+}
+
+.footernav2{
+
+    padding-top: 30px;
+    
+
+}
+.footernav2 ul li {
+
+    color: rgb(189, 189, 189);
+     
+ 
+ }
+.footernav2 ul li a{
+
+   color: rgb(189, 189, 189);
+    font-size: 1rem;
+
+}
+.footernav2icon i{
+
+    padding: 10px;
+    
+}
+.iconcard i{
+
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    
+}
+
+.owner{
+
+
+   align-items: center;
+   text-align: center;
+   color: rgb(255, 255, 255);
+   font-size: 20px;
+   transform: translateY(-50px);
+}
